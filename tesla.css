@@ -1,0 +1,363 @@
+@import url("https://googleapis.com");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+main {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+}
+.sec1 {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+}
+.mysecvideo {
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+header {
+  max-width: 1920px;
+  width: 100%;
+  height: 56px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(2%);
+}
+.H1 {
+  display: none;
+}
+.baruun {
+  width: 32px;
+  height: 32px;
+}
+.Htext2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+.Hlogo {
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HconText {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  gap: 32px;
+}
+.gg {
+  opacity: 0;
+}
+.Htext {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.mashin {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  margin-top: 56px;
+  max-width: 1920px;
+  width: 100%;
+  height: 487px;
+  background-color: white;
+}
+
+header:has(.nemelt:hover) + .H1 {
+  display: flex;
+  background-color: white;
+}
+.sec1:has(.nemelt:hover) .mashin {
+  display: flex;
+}
+.sec1:has(.nemelt:hover) .Container,
+.sec1:has(.nemelt:hover) .Container2 {
+  opacity: 0;
+}
+.mashinCon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 64px;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 1050px;
+  width: 100%;
+  height: 358px;
+}
+.carCon {
+  width: 250px;
+  height: 171px;
+}
+.carP {
+  max-width: 220px;
+  width: 100%;
+  height: 123px;
+  background-size: cover;
+  background-position: center;
+}
+.C1 {
+  background-image: url(image/tesla\ car01.png);
+  max-width: 220px;
+  width: 100%;
+  height: 123px;
+  background-size: cover;
+  background-position: center;
+}
+.C2 {
+  background-image: url(image/tesla\ car02.png);
+  max-width: 220px;
+  width: 100%;
+  height: 123px;
+  background-size: cover;
+  background-position: center;
+}
+.C3 {
+  background-image: url(image/tesla\ car03.png);
+  max-width: 220px;
+  width: 100%;
+  height: 123px;
+  background-size: cover;
+  background-position: center;
+}
+.C4 {
+  background-image: url(image/tesla\ car04.png);
+  max-width: 220px;
+  width: 100%;
+  height: 123px;
+  background-size: cover;
+  background-position: center;
+}
+.C5 {
+  background-image: url(image/tesla\ car05.png);
+  max-width: 220px;
+  width: 100%;
+  height: 123px;
+  background-size: cover;
+  background-position: center;
+}
+.C6 {
+  background: url(image/tesla\ car06.png);
+  max-width: 220px;
+  width: 100%;
+  height: 123px;
+  background-size: cover;
+  background-position: center;
+}
+.zz {
+  display: flex;
+  gap: 10px;
+}
+.textCon {
+  width: 300px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+}
+.Container {
+  width: 716px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 128px;
+  margin-left: 602px;
+  margin-right: 602px;
+  color: #ffffff;
+}
+.TextBig {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.TextMid {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+}
+.TextSmall {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+}
+.Container2 {
+  width: 100%;
+  max-width: 1920px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 965px;
+  color: #ffffff;
+}
+.BottonCon {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  height: 72px;
+}
+.botton {
+  width: 264px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.tsagaan {
+  background-color: #f4f4f4;
+  opacity: 80%;
+  color: black;
+}
+.har {
+  background-color: #171a20;
+  opacity: 65%;
+}
+.sec2 {
+  background-image: url(image/Section\ -_\ Model\ 3.png);
+  width: 100%;
+  max-width: 1920%;
+  background-size: cover;
+  background-position: center;
+  height: 975px;
+}
+.TextBig2 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+.TextMid2 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  color: #000000;
+}
+.Container3 {
+  width: 100%;
+  max-width: 1920px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 720px;
+  color: #ffffff;
+}
+.sec3 {
+  background-image: url(image/Section\ →\ Model\ X.png);
+  width: 100%;
+  max-width: 1920%;
+  background-size: cover;
+  background-position: center;
+  height: 975px;
+}
+.TextSmall2 {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+}
+.sec4 {
+  background-image: url(image/Section\ -_\ Model\ S.png);
+  width: 100%;
+  max-width: 1920%;
+  background-size: cover;
+  background-position: center;
+  height: 975px;
+}
+.sec5 {
+  background-image: url(image/Section\ →\ Cybertruck.png);
+  width: 100%;
+  max-width: 1920%;
+  background-size: cover;
+  background-position: center;
+  height: 975px;
+}
+.Container4 {
+  width: 100%;
+  max-width: 1920px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 835px;
+  color: #ffffff;
+}
+.tsagaan2 {
+  border: #f4f4f4 solid 3px;
+  color: white;
+}
+.botton2 {
+  width: 264px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec6 {
+  background-image: url(image/Section\ →\ SolarPanels.png);
+  width: 100%;
+  max-width: 1920%;
+  background-size: cover;
+  background-position: center;
+  height: 975px;
+}
+.sec7 {
+  background-image: url(image/Section\ →\ Solar\ Roof.png);
+  width: 100%;
+  max-width: 1920%;
+  background-size: cover;
+  background-position: center;
+  height: 975px;
+}
+.sec8 {
+  background-image: url(image/Section\ →\ Powewall.png);
+  width: 100%;
+  max-width: 1920%;
+  background-size: cover;
+  background-position: center;
+  height: 975px;
+}
+.sec9 {
+  background-image: url(image/Section\ →\ Accessories.png);
+  width: 100%;
+  max-width: 1920%;
+  background-size: cover;
+  background-position: center;
+  height: 975px;
+}
