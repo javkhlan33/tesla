@@ -19,19 +19,14 @@ main {
 .sec1 {
   width: 100%;
   max-width: 1920px;
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
 .mysecvideo {
-  max-width: 1920px;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  position: relative;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 header {
   max-width: 1920px;
@@ -186,14 +181,13 @@ header:has(.nemelt:hover) + .H1 {
   margin-top: 20px;
 }
 .Container {
-  width: 716px;
+  max-width: 716px;
+  width: 100%;
   position: absolute;
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 128px;
-  margin-left: 602px;
-  margin-right: 602px;
   color: #ffffff;
 }
 .TextBig {
@@ -253,6 +247,8 @@ header:has(.nemelt:hover) + .H1 {
   background-size: cover;
   background-position: center;
   height: 975px;
+  display: flex;
+  justify-content: center;
 }
 .TextBig2 {
   font-size: 40px;
@@ -284,6 +280,8 @@ header:has(.nemelt:hover) + .H1 {
   background-size: cover;
   background-position: center;
   height: 975px;
+  display: flex;
+  justify-content: center;
 }
 .TextSmall2 {
   color: #000000;
@@ -298,8 +296,13 @@ header:has(.nemelt:hover) + .H1 {
   background-size: cover;
   background-position: center;
   height: 975px;
+  display: flex;
+  justify-content: center;
 }
 .sec5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(image/Section\ →\ Cybertruck.png);
   width: 100%;
   max-width: 1920%;
@@ -336,6 +339,8 @@ header:has(.nemelt:hover) + .H1 {
   background-size: cover;
   background-position: center;
   height: 975px;
+  display: flex;
+  justify-content: center;
 }
 .sec7 {
   background-image: url(image/Section\ →\ Solar\ Roof.png);
@@ -344,6 +349,8 @@ header:has(.nemelt:hover) + .H1 {
   background-size: cover;
   background-position: center;
   height: 975px;
+  display: flex;
+  justify-content: center;
 }
 .sec8 {
   background-image: url(image/Section\ →\ Powewall.png);
@@ -352,6 +359,8 @@ header:has(.nemelt:hover) + .H1 {
   background-size: cover;
   background-position: center;
   height: 975px;
+  display: flex;
+  justify-content: center;
 }
 .sec9 {
   background-image: url(image/Section\ →\ Accessories.png);
@@ -360,4 +369,6 @@ header:has(.nemelt:hover) + .H1 {
   background-size: cover;
   background-position: center;
   height: 975px;
+  display: flex;
+  justify-content: center;
 }
